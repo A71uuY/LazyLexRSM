@@ -1,0 +1,14 @@
+var tx,x,y;
+if tx>=0 then
+	while x>=y and tx>=0 do
+	if prob(0.3) then
+		if * then
+			x:=x-1-tx
+		else
+			y:=y+1+tx
+		fi
+	else skip fi
+	od
+else
+	skip
+fi

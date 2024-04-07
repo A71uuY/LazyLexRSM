@@ -1,0 +1,19 @@
+var i, j, increment, temp;
+increment := array_size / 2;
+while increment >= 1 do
+    i:=0;
+    while i < array_size do
+        j := i;
+        skip;
+        while j >= increment do
+
+            skip;
+            j := j - increment
+
+        od;
+        skip;
+        i:=i+1
+    od;
+    increment := 0.5*increment
+
+od

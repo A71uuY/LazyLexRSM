@@ -1,0 +1,6 @@
+var x,z,n;
+while x<n do
+  if z>x then x:=x+1
+  else z:=z+1
+  fi
+od

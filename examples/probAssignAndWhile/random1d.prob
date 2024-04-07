@@ -1,0 +1,11 @@
+var a,x,max;
+if max>0 then
+	a:= [-2,2]+0;
+	x:= [-2,2]+1;
+	while x<=max do
+if prob(0.5) then
+		if * then a:= [-2,2]+a+1 else a:= [-2,2]+a-1 fi;
+		x:= [-2,2]+x+1
+	else skip fi
+od
+else skip fi

@@ -1,0 +1,8 @@
+var i,j;
+while i<5 do
+
+	j:=0;
+	while i>2 and j<=9 do j:=j+1 od;
+	i:=i+1
+
+od

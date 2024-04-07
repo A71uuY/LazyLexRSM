@@ -1,0 +1,7 @@
+var x,n;
+x:= [-2,2]+0;
+while x<n do
+if prob(0.5) then
+  if * then x:= [-2,2]+x+1 else x:= [-2,2]+x+1 fi  
+else skip fi
+od

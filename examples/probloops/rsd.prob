@@ -1,0 +1,18 @@
+var r,da,db,temp,c1;
+c1:=0;
+if r>=0 then
+  da := 2*r;
+  db := 2*r;
+  while da >=r do
+if prob(0.5) then
+    if * then
+      da:=da-1
+    else
+      temp := da;
+      da := db - 1;
+      db := temp
+    fi;
+    c1:=c1+1
+  else skip fi
+od
+else skip fi

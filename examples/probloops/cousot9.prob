@@ -1,0 +1,15 @@
+var i,j,N;
+[j>-5]
+i := N;
+while i>0 do
+if prob(0.5) then
+
+	if j>0 then
+		j := j-1
+	else
+		j := N;
+		i := i-1
+	fi
+
+else skip fi
+od

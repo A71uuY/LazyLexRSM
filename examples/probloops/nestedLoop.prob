@@ -1,0 +1,24 @@
+var i, j, k, n, m, N;
+if 0<=n and 0<=m and 0<=N then
+	i := 0;
+	while i<n do
+if prob(0.5) then
+		j := 0;
+		while j<m do
+if prob(0.5) then
+			j := j+ 1;
+			k := i;
+			while k<N do
+if prob(0.5) then
+				k := k+1
+			else skip fi
+od;
+			i := k
+		else skip fi
+od;
+		i := i+1
+	else skip fi
+od
+else
+	skip
+fi

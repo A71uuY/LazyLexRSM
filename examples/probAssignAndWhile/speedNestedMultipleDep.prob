@@ -1,0 +1,11 @@
+var x,n,y,m;
+x:= [-2,2]+0;
+while x<n do
+if prob(0.5) then
+  y:= [-2,2]+0;
+  x:= [-2,2]+x+1;
+  while y<m do
+if prob(0.5) then y:= [-2,2]+y+1 else skip fi
+od
+else skip fi
+od

@@ -1,0 +1,20 @@
+var i,j,n;
+i := 0;
+j := 0;
+while j<=n-2 do
+if prob(0.1) then
+	j := j+1
+else skip fi
+od;
+i := i+1;
+while j>=n-1 and i<=n-2 do
+if prob(0.1) then
+	j := 0;
+	while j<=n-2 do
+if prob(0.1) then
+		j := j+1
+else skip fi
+	od;
+	i := i+1
+else skip fi
+od

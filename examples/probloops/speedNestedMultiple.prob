@@ -1,0 +1,9 @@
+var x,n,y,m;
+while x<n do
+if prob(0.5) then
+  while y<m do
+if prob(0.5) then y:=y+1 else skip fi
+od;
+  x:=x+1
+else skip fi
+od

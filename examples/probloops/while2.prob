@@ -1,0 +1,11 @@
+var i,j,N;
+i:=N;
+while i>0 do
+if prob(0.5) then
+	j:=N;
+	while j>0 do
+if prob(0.5) then j:=j-1 else skip fi
+od;
+	i:=i-1
+else skip fi
+od

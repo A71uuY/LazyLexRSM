@@ -1,0 +1,13 @@
+var i, m, n;
+if m < 1 then skip else
+	if n <= m then skip else
+		i:=n;
+		while i>0 do
+			if i<m then
+			  i:=i-1
+			else
+			  i := i-m
+			fi
+		od
+	fi
+fi

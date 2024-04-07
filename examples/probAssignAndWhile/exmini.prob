@@ -1,0 +1,9 @@
+var i,j,k,tmp;
+while i<=100 and j<=k do
+if prob(0.5) then
+	tmp := [-2,2]+ i;
+	i := [-2,2]+ j;
+	j := [-2,2]+ tmp+1;
+	k := [-2,2]+ k-1
+else skip fi
+od

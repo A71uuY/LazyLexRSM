@@ -1,0 +1,10 @@
+var x,y,z;
+x := 0;
+y := 100;
+while x<40 do
+	if z>=0 and z<=0 then
+		x := x+1
+	else
+		x := x+2
+	fi
+od

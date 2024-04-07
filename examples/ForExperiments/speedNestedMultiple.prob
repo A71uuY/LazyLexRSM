@@ -1,0 +1,5 @@
+var x,n,y,m;
+while x<n do
+  while y<m do y:=y+1 od;
+  x:=x+1
+od

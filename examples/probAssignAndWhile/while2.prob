@@ -1,0 +1,11 @@
+var i,j,N;
+i:= [-2,2]+N;
+while i>0 do
+if prob(0.5) then
+	j:= [-2,2]+N;
+	while j>0 do
+if prob(0.5) then j:= [-2,2]+j-1 else skip fi
+od;
+	i:= [-2,2]+i-1
+else skip fi
+od

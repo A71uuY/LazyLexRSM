@@ -1,0 +1,12 @@
+var n,b,x,y;
+while x>=0 and 0<=y and y<=n and b>=0 and b<=0 or x>=0 and 0<=y and y<=n and b>=1 and b<=1 do
+if prob(0.5) then
+  if b>=0 and b<=0 then
+    y:=y+1;
+    if * then b:=1 else skip fi
+  else
+	  y:=y-1;
+	  if * then x:=x-1; b:=0 else skip fi
+  fi
+else skip fi
+od

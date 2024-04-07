@@ -1,0 +1,9 @@
+var x,y;
+while x>=0 do
+	if y>=0 then
+		y := y+[-7,1]
+	else
+		x := x+[-7,1];
+		y := y+[-7,1]
+	fi
+od

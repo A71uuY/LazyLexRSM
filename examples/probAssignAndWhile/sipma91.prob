@@ -1,0 +1,28 @@
+var x, y1, y2, z;
+
+y1 := [-2,2]+ x;
+y2 := [-2,2]+ 1;
+
+if y1 > 100 then z := [-2,2]+ y1 - 10
+else 
+  while y1 <= 100 do
+if prob(0.5) then    y1 := [-2,2]+ y1 + 11;
+    y2 := [-2,2]+ y2 + 1
+  else skip fi
+od;
+
+  while y2 > 1 do
+if prob(0.5) then    y1 := [-2,2]+ y1 - 10;
+    y2 := [-2,2]+ y2 - 1;
+    if y1 > 100 and y2 >= 1 and y2<=1 then z := [-2,2]+ y1 - 10
+    else
+      if y1 > 100 then
+        y1 := [-2,2]+ y1 - 10;
+        y2 := [-2,2]+ y2 - 1
+      else skip fi;
+      y1 := [-2,2]+ y1 + 11;
+      y2 := [-2,2]+ y2 + 1
+    fi
+  else skip fi
+od
+fi

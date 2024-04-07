@@ -1,0 +1,12 @@
+var x,y,z;
+x := 0;
+y := 100;
+while x<40 do
+if prob(0.5) then
+	if z>=0 and z<=0 then
+		x := x+1
+	else
+		x := x+2
+	fi
+else skip fi
+od

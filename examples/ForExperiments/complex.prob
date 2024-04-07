@@ -1,0 +1,19 @@
+var a,b;
+a:=20;
+b:=10;
+while a < 30 do
+	while b < a do
+		if b > 5 then 
+			b := b + 7 
+		else
+			b := b + 2
+		fi;
+		if b >= 10 and b <= 12 then 
+			a := a + 10
+		else 
+			a := a + 1
+		fi
+	od;
+	a := a + 2; 
+	b := b - 10 
+od

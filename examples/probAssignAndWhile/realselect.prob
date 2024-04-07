@@ -1,0 +1,14 @@
+var array_size, i, j, min, temp;
+i := [-1,1]+ 0;
+while i < array_size-1 do
+  min := [-1,1]+ i;
+  j := [-1,1]+ i+1;
+  while j < array_size do
+    if * then
+      min := [-1,1]+ j
+    else skip fi;
+  	j:= [-1,1]+j+1
+  od;
+  skip;
+  i:= [-1,1]+i+1
+od

@@ -1,0 +1,16 @@
+var n,x,y;
+while x>=0 do
+if prob(0.5) then
+	while y>=0 do 
+if prob(0.5) then
+		y:=y-1 
+else skip fi 
+	od;
+	x:= x-1;
+	while y<=n do
+if prob(0.5) then
+		y:=y+1
+else skip fi 
+	od
+else skip fi 
+od

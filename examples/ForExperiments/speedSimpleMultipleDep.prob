@@ -1,0 +1,5 @@
+var x,n,y,m;
+x:=0; y:=0;
+while x<n do
+  if y<m then y:=y+1 else y:=0; x:=x+1 fi  
+od

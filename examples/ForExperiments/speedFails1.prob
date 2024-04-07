@@ -1,0 +1,3 @@
+var i,n,m;
+[m>=1]
+while i<=n do i:=i+m od

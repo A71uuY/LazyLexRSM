@@ -1,0 +1,17 @@
+var n, tmp, i, j;
+
+i := n;
+while i >= 0 do
+if prob(0.5) then
+  j := 0;
+  while j <= i-1 do
+if prob(0.5) then
+    if * then
+      skip
+    else skip fi;
+    j:=j+1
+  else skip fi
+od;
+  i:= i-1
+else skip fi
+od

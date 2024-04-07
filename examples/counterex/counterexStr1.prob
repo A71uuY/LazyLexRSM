@@ -1,0 +1,8 @@
+var x,y;
+while y>=0 do
+	x := y;
+	while x>=0 do
+		x := x-1+[0,-infty,infty]
+	od;
+	y := y-1
+od

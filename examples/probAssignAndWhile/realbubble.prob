@@ -1,0 +1,17 @@
+var length,i, j,test;
+i := [-1,1]+ length - 1;
+while i > 0 and test >=1 and test<=1 do
+
+  test:= [-1,1]+0;
+  j := [-1,1]+ 0;
+  while j < i
+  do
+    if * then
+    
+      skip;
+      test:= [-1,1]+1
+    else skip fi;
+    j:= [-1,1]+j+1
+  od;
+  i:= [-1,1]+i-1
+od

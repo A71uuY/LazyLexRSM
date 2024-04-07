@@ -1,0 +1,17 @@
+var i, j, m, n;
+if m <= 0 then skip else
+  if n <= m then skip else
+    i:= [-2,2]+0;
+    j:= [-2,2]+0;
+    while i<n do
+if prob(0.5) then
+      if j<m then 
+        j:= [-2,2]+j+1
+      else
+        j := [-2,2]+ 0;
+        i := [-2,2]+ i+1
+      fi
+    else skip fi
+od
+  fi
+fi

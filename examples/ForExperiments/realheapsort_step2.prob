@@ -1,0 +1,22 @@
+var N,k,j,m;
+if N > 2 then
+  k:=0;
+  while k<=N-2
+  do
+    j := 0;
+    m:=0;
+    while 2*j+1<=N-2-k
+    do
+      if * then
+        m:=2*j+1
+      else
+        m:=2*j+2;
+        if * then
+          j:=m
+        else j:=N
+        fi
+      fi
+    od;
+    k:=k+1
+  od
+else skip fi

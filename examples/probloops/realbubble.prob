@@ -1,0 +1,21 @@
+var length,i, j,test;
+i := length - 1;
+while i > 0 and test >=1 and test<=1 do
+if prob(0.5) then
+
+  test:=0;
+  j := 0;
+  while j < i
+  do
+if prob(0.5) then
+    if * then
+    
+      skip;
+      test:=1
+    else skip fi;
+    j:=j+1
+  else skip fi
+od;
+  i:=i-1
+else skip fi
+od

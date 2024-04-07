@@ -1,0 +1,11 @@
+var x, y;
+if x>=0 and y>=0 then
+	while x-y>=3 or y-x>=3 do
+		if x + 1 <= y then
+			x := x+1
+		else
+			y:= y+1
+		fi
+	od
+else skip
+fi

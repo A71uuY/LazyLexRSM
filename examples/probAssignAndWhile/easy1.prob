@@ -1,0 +1,12 @@
+var x,y,z;
+x := [-2,2]+ 0;
+y := [-2,2]+ 100;
+while x<40 do
+if prob(0.5) then
+	if z>=0 and z<=0 then
+		x := [-2,2]+ x+1
+	else
+		x := [-2,2]+ x+2
+	fi
+else skip fi
+od

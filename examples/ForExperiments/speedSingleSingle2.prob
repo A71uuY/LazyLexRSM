@@ -1,0 +1,13 @@
+var x,n,y,m,break;
+break:=0;
+if n<0 or m <0 then skip else
+  x:=0;
+  y:=0;
+  while break>=0 and break<=0
+    do
+		if x<n then x:=x+1;y:=y+1 
+		else
+			if y<m then x:=x+1;y:=y+1 else break:=1 fi
+		fi
+    od
+fi

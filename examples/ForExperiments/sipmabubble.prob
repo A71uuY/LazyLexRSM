@@ -1,0 +1,13 @@
+var n, tmp, i, j;
+
+i := n;
+while i >= 0 do
+  j := 0;
+  while j <= i-1 do
+    if * then
+      skip
+    else skip fi;
+    j:=j+1
+  od;
+  i:= i-1
+od

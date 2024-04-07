@@ -1,0 +1,9 @@
+var a,x,max;
+if max>0 then
+	a:=0;
+	x:=1;
+	while x<=max do
+		if * then a:=a+1 else a:=a-1 fi;
+		x:=x+1
+	od
+else skip fi

@@ -1,0 +1,7 @@
+var x,n;
+x:=0;
+while x<n do
+if prob(0.5) then
+  if * then x:=x+1 else x:=x+1 fi  
+else skip fi
+od

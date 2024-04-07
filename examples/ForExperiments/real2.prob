@@ -1,0 +1,13 @@
+var len,tmp,again,i;
+again := 1;
+while again>=1 and again<=1 do
+  again := 0;
+  i := 0;
+  while i < len - 1 do
+    if * then
+      skip;
+      again := 1
+    else skip fi;
+    i:=i+1
+   od
+od

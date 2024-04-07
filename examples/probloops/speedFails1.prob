@@ -1,0 +1,5 @@
+var i,n,m;
+[m>=1]
+while i<=n do
+if prob(0.5) then i:=i+m else skip fi
+od

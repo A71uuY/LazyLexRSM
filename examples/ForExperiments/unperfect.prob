@@ -1,0 +1,18 @@
+var x, y1, y2, y3;
+
+if x < 1 then skip else
+
+  y1:=x;
+  y2:=x;
+  y3:=x;
+
+  while y1>=2 or y1<=0 do
+    y1 := y1-1;
+    while y2 >= y1 do y2 := y2 - y1 od;
+    if y2 <= 0 and y2>=0 then
+      y3 := y3 - y1
+    else skip fi;
+    y2 := x
+  od
+
+fi

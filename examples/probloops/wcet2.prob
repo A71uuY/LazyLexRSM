@@ -1,0 +1,12 @@
+var i,j;
+while i<5 do
+if prob(0.5) then
+
+	j:=0;
+	while i>2 and j<=9 do
+if prob(0.5) then j:=j+1 else skip fi
+od;
+	i:=i+1
+
+else skip fi
+od

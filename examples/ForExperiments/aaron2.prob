@@ -1,0 +1,12 @@
+var tx,x,y;
+if tx>=0 then
+	while x>=y and tx>=0 do
+		if * then
+			x:=x-1-tx
+		else
+			y:=y+1+tx
+		fi
+	od
+else
+	skip
+fi

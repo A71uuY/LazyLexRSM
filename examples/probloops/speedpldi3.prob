@@ -1,0 +1,17 @@
+var i, j, m, n;
+if m <= 0 then skip else
+  if n <= m then skip else
+    i:=0;
+    j:=0;
+    while i<n do
+if prob(0.5) then
+      if j<m then 
+        j:=j+1
+      else
+        j := 0;
+        i := i+1
+      fi
+    else skip fi
+od
+  fi
+fi

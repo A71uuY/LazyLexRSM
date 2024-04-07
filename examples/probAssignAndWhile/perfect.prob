@@ -1,0 +1,19 @@
+var x, y1, y2, y3;
+
+if x <= 1 then skip else
+
+  y2:= [-2,2]+x;
+  y1 := [-2,2]+ x-1; 
+  while y1>=1 do
+if prob(0.5) then
+
+    while y2 >= y1 do
+if prob(0.5) then y2 := [-2,2]+ y2 - y1 else skip fi
+od;
+    y2 := [-2,2]+ x;
+    y1:= [-2,2]+y1-1
+
+  else skip fi
+od
+
+fi

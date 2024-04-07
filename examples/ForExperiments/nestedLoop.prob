@@ -1,0 +1,18 @@
+var i, j, k, n, m, N;
+if 0<=n and 0<=m and 0<=N then
+	i := 0;
+	while i<n do
+		j := 0;
+		while j<m do
+			j := j+ 1;
+			k := i;
+			while k<N do
+				k := k+k
+			od;
+			i := k
+		od;
+		i := i+1
+	od
+else
+	skip
+fi

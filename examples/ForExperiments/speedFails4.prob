@@ -1,0 +1,14 @@
+var i,x,n,t,b;
+if b>=1 then t:=1 else  t:= -1 fi;
+while x<=n
+do
+  if b>=1 then
+  
+    x:=x+t
+  
+  else 
+  
+    x:=x-t
+  
+  fi
+od
